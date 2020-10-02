@@ -6,6 +6,8 @@ import 'package:todoey/models/task_data.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  var a = 10;
+  print(a);
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
